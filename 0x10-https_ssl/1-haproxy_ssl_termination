@@ -42,9 +42,9 @@ frontend rodneyasante.tech
         bind 0:443 ssl crt /etc/ssl/private/rodneyasante.tech.pem
         http-request redirect scheme https code 301 unless { ssl_fc }
         option forwardfor
-        default_backend sammykingx.tech_backend
+        default_backend rodneyasante.tech_backend
 
-backend sammykingx.tech_backend
+backend rodneyasante.tech_backend
         balance roundrobin
         server 193084-web-01 18.206.192.5:80 check
         server 193084-web-02 54.234.63.158:80 check
