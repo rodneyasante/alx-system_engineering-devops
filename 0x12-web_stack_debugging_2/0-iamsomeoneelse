@@ -7,4 +7,4 @@ if [ -z "$1" ]; then
 fi
 
 # Run the 'whoami' command under the specified user
-su - "$1" -c "whoami"
+su - "$1" -u "whoami"
