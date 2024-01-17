@@ -1,4 +1,5 @@
-# Advanced API
+# Advanced API.
+
 
 ![](https://nordicapis.com/wp-content/uploads/How-API-Security-Has-Advanced-With-The-Dawn-of-AI-1024x576.png)
 
